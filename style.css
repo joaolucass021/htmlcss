@@ -60,5 +60,33 @@ body{
 .container_secundario{
     background-color: transparent;
     border: 2px solid var(--branco-prinipal);
-    
+
 }
+
+.container_aviso{
+    font-size: 12px;
+    border: var(--branco-prinipal);
+}
+
+.conteiner_titulo{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.container_imagem{
+    margin: 1cm 0 2cm 0;
+}
+
+.container_caixa{
+    margin: 0 6cm;
+}
+
+.secundario_imagem{
+    width: 80%;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 10cm;
+}
+
