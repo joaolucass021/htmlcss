@@ -14,7 +14,7 @@ body{
     font-size: 16px;
     font-weight: 400;  
 }
-
+<a href="#" class="container_botao secundario-botao" container>Veja os Projetos</a>
 *{
     margin: 0;
     padding: 0;
@@ -42,7 +42,7 @@ body{
 }
 
 .container{
-    height: 100vh;
+    height: 70vh;
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -81,6 +81,11 @@ body{
     margin: 0 6cm;
 }
 
+.container_botao:hover{
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
+}
+
 .secundario_imagem{
     width: 80%;
 }
@@ -88,6 +93,15 @@ body{
 .secundario{
     align-items: center;
     margin: 0 10cm;
+}
+
+.secundario-botao{
+    display: inline-block;
+    margin-top: 2em;
+}
+
+.container-descricao{
+    padding: 2em;
 }
 
 .descricao-titulo{
@@ -126,5 +140,32 @@ body{
 }
 
 .lista-link a:hover{
-    color: var(--botao-azul)
+    color: var(--botao-azul);
 }
+
+.estatisticas-lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5cm 0;
+}
+
+.estatisticas{
+    text-align: center;
+}
+
+.estatistica-titulo{
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.estatisticas-item{
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+.lista-link a:active{
+    color: purple;
+}
+
+
